@@ -16,9 +16,9 @@ export class OrganisersController {
     this.renderChambers();
     this.initDots();
     this.initButtons();
-    this.updateSlider();
+    this.updateSlider(false);
     
-    window.addEventListener("resize", () => this.updateSlider());
+    window.addEventListener("resize", () => this.updateSlider(false));
   }
 
   initTabs() {
@@ -33,7 +33,7 @@ export class OrganisersController {
 
       btn.addEventListener("click", () => {
         this.currentIndex = idx;
-        this.updateSlider();
+        this.updateSlider(true);
       });
 
       this.tabsContainer.appendChild(btn);
@@ -82,7 +82,7 @@ export class OrganisersController {
       
       dot.addEventListener("click", () => {
         this.currentIndex = idx;
-        this.updateSlider();
+        this.updateSlider(true);
       });
 
       this.dotsContainer.appendChild(dot);
@@ -94,7 +94,7 @@ export class OrganisersController {
       this.prevBtn.addEventListener("click", () => {
         if (this.currentIndex > 0) {
           this.currentIndex--;
-          this.updateSlider();
+          this.updateSlider(true);
         }
       });
     }
@@ -103,13 +103,13 @@ export class OrganisersController {
       this.nextBtn.addEventListener("click", () => {
         if (this.currentIndex < this.categories.length - 1) {
           this.currentIndex++;
-          this.updateSlider();
+          this.updateSlider(true);
         }
       });
     }
   }
 
-  updateSlider() {
+  updateSlider(shouldScroll = false) {
     const isMobile = window.innerWidth <= 768;
     const chambers = this.track ? this.track.querySelectorAll(".organiser-chamber") : [];
     
@@ -141,8 +141,10 @@ export class OrganisersController {
       tabs.forEach((tab, idx) => {
         if (idx === this.currentIndex) {
           tab.classList.add("active");
-          // Smooth scroll the active tab to center on mobile viewports
-          tab.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+          if (shouldScroll) {
+            // Smooth scroll the active tab to center on mobile viewports
+            tab.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+          }
         } else {
           tab.classList.remove("active");
         }
