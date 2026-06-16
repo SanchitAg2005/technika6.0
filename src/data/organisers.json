@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Dr. Arvind Kumar Pandey",
+    "role": "Dean, School of Engineering & IT",
+    "category": "Convenors",
+    "email": "technika@arkajainuniversity.ac.in"
+  },
+  {
+    "name": "Dr. Ashwini Kumar",
+    "role": "Asst. Dean, School of Engineering & IT",
+    "category": "Convenors",
+    "email": "technika@arkajainuniversity.ac.in"
+  },
+  {
+    "name": "Prof. Mamatha Vayelapelli",
+    "role": "Faculty Coordinator",
+    "category": "Faculty Coordinators",
+    "phone": "+91 78588 12586"
+  },
+  {
+    "name": "Dr. Viranshu Kumar",
+    "role": "Faculty Coordinator",
+    "category": "Faculty Coordinators",
+    "phone": "+91 82102 57269"
+  },
+  {
+    "name": "Prof. Syed Rashid Anwar",
+    "role": "Faculty Coordinator",
+    "category": "Faculty Coordinators",
+    "phone": "+91 87894 25624"
+  },
+  {
+    "name": "Prof. Divya Paikaray",
+    "role": "Faculty Coordinator",
+    "category": "Faculty Coordinators",
+    "phone": "+91 87892 63478"
+  },
+  {
+    "name": "Dr. Prem Nath Suman",
+    "role": "Faculty Coordinator",
+    "category": "Faculty Coordinators",
+    "phone": "+91 97092 24801"
+  },
+  {
+    "name": "Prof. Sayantani De",
+    "role": "Faculty Coordinator",
+    "category": "Faculty Coordinators",
+    "phone": "+91 94321 71787"
+  },
+  {
+    "name": "Prof. Astik Pradhan",
+    "role": "Faculty Coordinator",
+    "category": "Faculty Coordinators",
+    "phone": "+91 91626 04151"
+  },
+  {
+    "name": "Adeeb Razi",
+    "role": "Student Coordinator - Administration",
+    "category": "Core Team",
+    "phone": "+91 62067 82574"
+  },
+  {
+    "name": "Anjali Singh",
+    "role": "Student Coordinator - Administration",
+    "category": "Core Team",
+    "phone": "+91 62051 20426"
+  },
+  {
+    "name": "Aaditya Singh",
+    "role": "Student Coordinator - Design Lead",
+    "category": "Core Team",
+    "phone": "+91 92793 16906"
+  },
+  {
+    "name": "Sohail Khan",
+    "role": "Student Coordinator - Co Design Lead",
+    "category": "Core Team",
+    "phone": "+91 89868 63258"
+  },
+  {
+    "name": "Sonali Mahato",
+    "role": "Student Coordinator - Social Media Lead",
+    "category": "Core Team",
+    "phone": "+91 77658 65595"
+  },
+  {
+    "name": "Nikita Mishra",
+    "role": "Student Coordinator - Content Lead",
+    "category": "Core Team"
+  },
+  {
+    "name": "Sanchit Agarwal",
+    "role": "Student Coordinator - Technical Lead",
+    "category": "Core Team"
+  },
+  {
+    "name": "Awesh Hussain",
+    "role": "Student Coordinator - Co Technical Lead",
+    "category": "Core Team"
+  },
+  {
+    "name": "Himanshu Singh",
+    "role": "Student Coordinator - Co Social Media Lead",
+    "category": "Core Team"
+  },
+  {
+    "name": "Moaaz Akhtar",
+    "role": "Student Coordinator",
+    "category": "Core Team"
+  },
+  {
+    "name": "Harsh Pathak",
+    "role": "Student Coordinator",
+    "category": "Core Team"
+  },
+  {
+    "name": "Md. Arshad",
+    "role": "Technical Coordinator",
+    "category": "Technical Coordinators",
+    "phone": "+91 92641 85383"
+  },
+  {
+    "name": "Mr. Suraj Pandit",
+    "role": "Technical Coordinator",
+    "category": "Technical Coordinators",
+    "phone": "+91 80924 53985"
+  },
+  {
+    "name": "Mr. Utkarsh",
+    "role": "Technical Coordinator",
+    "category": "Technical Coordinators",
+    "phone": "+91 62066 44049"
+  },
+  {
+    "name": "Md. Iqbal Ansari",
+    "role": "Technical Coordinator",
+    "category": "Technical Coordinators",
+    "phone": "+91 90319 72439"
+  },
+  {
+    "name": "Mr. Umesh",
+    "role": "Technical Coordinator",
+    "category": "Technical Coordinators"
+  },
+  {
+    "name": "Md. Nasim Ansari",
+    "role": "Technical Coordinator",
+    "category": "Technical Coordinators",
+    "phone": "+91 98525 84748"
+  },
+  {
+    "name": "Prof. Megha Srivastav",
+    "role": "Technical Coordinator",
+    "category": "Technical Coordinators",
+    "phone": "+91 93047 20983"
+  },
+  {
+    "name": "Abhijeet Mandal",
+    "role": "Technical Coordinator",
+    "category": "Technical Coordinators",
+    "phone": "+91 77177 06044"
+  }
+]

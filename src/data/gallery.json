@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mem-1",
+    "title": "Geometric Zenith",
+    "description": "Exploration of volumetric grids and ambient light vectors.",
+    "artworkType": "crystal"
+  },
+  {
+    "id": "mem-2",
+    "title": "Harmonic Wavefront",
+    "description": "Soundscapes translated into interactive kinetic geometry.",
+    "artworkType": "spiral"
+  },
+  {
+    "id": "mem-3",
+    "title": "Quantum Resonance",
+    "description": "Autonomous structures interacting with neural network weights.",
+    "artworkType": "grid"
+  },
+  {
+    "id": "mem-4",
+    "title": "Solar Nexus",
+    "description": "Light sweep vectors intersecting with structural blueprints.",
+    "artworkType": "fractal"
+  },
+  {
+    "id": "mem-5",
+    "title": "Avinyā Cradle",
+    "description": "The birth of the procedural mandala in Technika 2025.",
+    "artworkType": "mandala"
+  },
+  {
+    "id": "mem-6",
+    "title": "Prismatic Flow",
+    "description": "Fluids morphing through polygonal meshes.",
+    "artworkType": "wave"
+  }
+]

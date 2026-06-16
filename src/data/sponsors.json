@@ -1,0 +1,51 @@
+[
+  {
+    "name": "JAIN Group (Bengaluru)",
+    "tier": "Diamond Sponsor",
+    "logo": "",
+    "url": "https://jain.ac.in",
+    "accentColor": "#FF3B93"
+  },
+  {
+    "name": "IBM India",
+    "tier": "Diamond Sponsor",
+    "logo": "",
+    "url": "https://ibm.com/in-en",
+    "accentColor": "#3CE6FC"
+  },
+  {
+    "name": "Apex Innovations",
+    "tier": "Gold Sponsor",
+    "logo": "",
+    "url": "#",
+    "accentColor": "#D6FD52"
+  },
+  {
+    "name": "Helix Core Systems",
+    "tier": "Gold Sponsor",
+    "logo": "",
+    "url": "#",
+    "accentColor": "#FF7B00"
+  },
+  {
+    "name": "Zenith Quantum",
+    "tier": "Silver Sponsor",
+    "logo": "",
+    "url": "#",
+    "accentColor": "#C084FC"
+  },
+  {
+    "name": "Vector Graphics Co",
+    "tier": "Silver Sponsor",
+    "logo": "",
+    "url": "#",
+    "accentColor": "#D6FD52"
+  },
+  {
+    "name": "Lumen Labs",
+    "tier": "Silver Sponsor",
+    "logo": "",
+    "url": "#",
+    "accentColor": "#3CE6FC"
+  }
+]

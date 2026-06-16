@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>TECHNIKA 6.0 | AVINYĀ - Monumental Interactive Experience</title>
+    <meta name="title" content="TECHNIKA 6.0 | AVINYĀ" />
+    <meta name="description" content="Welcome to TECHNIKA 6.0 - AVINYĀ. Experience a living digital world where ancient knowledge evolves into future innovation through geometry, light, and interaction." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TECHNIKA 6.0 | AVINYĀ" />
+    <meta property="og:description" content="Experience a living digital world where ancient knowledge evolves into future innovation through geometry, light, and interaction." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Immersive Background Layers -->
+    <div id="ambient-glow" aria-hidden="true"></div>
+    <div id="grid-container" aria-hidden="true"></div>
+    <div id="mandala-container" aria-hidden="true"></div>
+
+    <!-- Living SVG Monument Centerpiece (Fixed behind/around sections) -->
+    <div id="monument-viewport" aria-hidden="true">
+      <div id="monument-canvas">
+        <!-- SVG Monument will be dynamically rendered here -->
+      </div>
+    </div>
+
+    <!-- Page Loader Overlay -->
+    <div id="loader">
+      <div class="loader-content">
+        <svg class="loader-logo" viewBox="0 0 100 100" width="80" height="80">
+          <circle cx="50" cy="50" r="40" stroke="#A8E8F9" stroke-width="2" fill="none" stroke-dasharray="251.2" stroke-dashoffset="251.2"></circle>
+          <polygon points="50,20 75,65 25,65" stroke="#F5A201" stroke-width="1.5" fill="none" stroke-dasharray="160" stroke-dashoffset="160"></polygon>
+          <circle cx="50" cy="50" r="10" fill="#FFBA42"></circle>
+        </svg>
+        <div class="loader-text">
+          <span class="loader-title">TECHNIKA 6.0</span>
+          <span class="loader-subtitle">AVINYĀ</span>
+        </div>
+        <div class="loader-progress-bar">
+          <div class="loader-progress"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header id="header">
+      <div class="nav-container">
+        <div class="nav-logo" id="nav-logo-trigger">
+          <img src="/src/assets/logo.png" alt="ARKA JAIN University Logo" class="nav-logo-img" />
+        </div>
+        <nav class="desktop-nav" aria-label="Main Navigation">
+          <a href="#college-info" class="nav-link">About</a>
+          <a href="#events" class="nav-link">Events</a>
+          <a href="#sponsors" class="nav-link">Sponsors</a>
+          <a href="#timeline" class="nav-link">Timeline</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#organisers" class="nav-link">Organisers</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a href="#" class="btn-brochure" id="nav-brochure-link" target="_blank" rel="noopener">Brochure</a>
+          <button class="btn-register header-register-btn" id="nav-register-btn">Register</button>
+          <button class="hamburger" id="hamburger-toggle" aria-label="Toggle Menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div id="mobile-menu" class="mobile-menu-overlay" aria-hidden="true">
+      <div class="mobile-menu-content">
+        <nav class="mobile-nav" aria-label="Mobile Navigation">
+          <a href="#college-info" class="mobile-nav-link">About</a>
+          <a href="#events" class="mobile-nav-link">Events</a>
+          <a href="#sponsors" class="mobile-nav-link">Sponsors</a>
+          <a href="#timeline" class="mobile-nav-link">Timeline</a>
+          <a href="#gallery" class="mobile-nav-link">Gallery</a>
+          <a href="#organisers" class="mobile-nav-link">Organisers</a>
+          <a href="#contact" class="mobile-nav-link">Contact</a>
+          <a href="#" class="mobile-nav-link" id="mobile-brochure-link" target="_blank" rel="noopener">Brochure</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Main Content Container -->
+    <main id="app">
+      <!-- Section 1: Hero / Landing -->
+      <section id="hero" class="scroll-section">
+        <div class="hero-content">
+          <div class="hero-title-container">
+            <h1 class="hero-title">TECHNIKA 6.0</h1>
+            <div class="hero-theme">AVINYĀ</div>
+          </div>
+          <div class="hero-scroll-indicator">
+            <span class="scroll-text">EXPLORE THE WORLD OF AVINYĀ</span>
+            <svg class="scroll-arrow" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M7.41,8.59L12,13.17L16.59,8.59L18,10L12,16L6,10L7.41,8.59Z" fill="currentColor" />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: College Information Area -->
+      <section id="college-info" class="scroll-section">
+        <div class="section-container">
+          <div class="info-reveal-wrapper">
+            <h2 class="section-title">THE SENSE OF ARRIVAL</h2>
+            <div class="info-details-grid">
+              <div class="info-card" id="info-date-card">
+                <div class="info-icon-wrapper">
+                  <!-- Geometric Calendar SVG -->
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                </div>
+                <div class="info-card-label">DATE</div>
+                <div class="info-card-value" id="info-date">Loading...</div>
+              </div>
+              <div class="info-card" id="info-venue-card">
+                <div class="info-icon-wrapper">
+                  <!-- Geometric Location SVG -->
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="info-card-label">VENUE</div>
+                <div class="info-card-value" id="info-venue">Loading...</div>
+              </div>
+              <div class="info-card" id="info-duration-card">
+                <div class="info-icon-wrapper">
+                  <!-- Geometric Duration SVG -->
+                  <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="info-card-label">DURATION</div>
+                <div class="info-card-value" id="info-duration">Loading...</div>
+            </div>
+          </div>
+            
+            <!-- Neobrutalist About Info Blocks -->
+            <div class="about-grid">
+              <div class="about-card">
+                <h3 class="about-card-title">ARKA JAIN University</h3>
+                <p class="about-card-text">
+                  AJU was established in 2017 by the Jharkhand State Legislature and is recognized by the UGC. Accredited with NAAC 'A' Grade in its first cycle, it is Jamshedpur's premier higher education hub. Mentored by JAIN (Deemed-to-be University), Bengaluru, AJU represents a community of academic rigor and student empowerment.
+                </p>
+              </div>
+              <div class="about-card">
+                <h3 class="about-card-title">School of Engineering & IT</h3>
+                <p class="about-card-text">
+                  The School of Engineering & IT stands as a center of technological innovation. Offering B.Tech, BCA, MCA, and Diploma programs in collaboration with global industry partners like IBM, the school provides an environment for coding, hands-on experimentation, and future-focused career development.
+                </p>
+              </div>
+              <div class="about-card">
+                <h3 class="about-card-title">Technika 6.0 | Avinyā</h3>
+                <p class="about-card-text">
+                  Technika is Jamshedpur's premier technical extravaganza. Evolving under the theme "Avinyā: Achieving Harmony Through Innovation," this edition converges robotics, coding, design, and culture, challenging students to think beyond bounds and shape a smarter tomorrow.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Event Experience -->
+      <section id="events" class="scroll-section">
+        <div class="section-container">
+          <h2 class="section-title">THE PATHS OF AVINYĀ</h2>
+          
+          <!-- Category Filter Tabs -->
+          <div class="events-filter-container">
+            <div class="events-filters" id="events-tabs">
+              <!-- Dynamically populated categories -->
+            </div>
+          </div>
+
+          <!-- Dynamic Grid Layout -->
+          <!-- Slider Wrapper -->
+          <div class="events-slider-wrapper">
+            <button class="slider-arrow prev-arrow" id="events-prev" aria-label="Previous Events">
+              <svg viewBox="0 0 24 24" width="24" height="24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" fill="currentColor"/></svg>
+            </button>
+            <div class="events-grid" id="events-container">
+              <!-- Dynamically populated event cards -->
+            </div>
+            <button class="slider-arrow next-arrow" id="events-next" aria-label="Next Events">
+              <svg viewBox="0 0 24 24" width="24" height="24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"/></svg>
+            </button>
+          </div>
+          <div class="swipe-hint">Swipe to explore events &rarr;</div>
+        </div>
+      </section>
+
+      <!-- Section 4: Sponsor Experience -->
+      <section id="sponsors" class="scroll-section">
+        <div class="section-container">
+          <h2 class="section-title">COLLABORATORS</h2>
+          <p class="section-description">Architects of our digital frontier</p>
+          
+          <!-- Spotlight System container -->
+          <div class="sponsors-wrapper" id="sponsors-container">
+            <!-- Dynamically populated sponsor tiers & spotlights -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5: Timeline Experience -->
+      <section id="timeline" class="scroll-section">
+        <div class="section-container">
+          <h2 class="section-title">THE UNFOLDING PATH</h2>
+          <p class="section-description">Chronicles of Day One & Day Two</p>
+          
+          <div class="timeline-navigation">
+            <button class="btn-timeline-tab active" id="tab-day1">Day One</button>
+            <button class="btn-timeline-tab" id="tab-day2">Day Two</button>
+          </div>
+
+          <div class="timeline-wrapper">
+            <!-- The Central Animated Path SVG -->
+            <svg class="timeline-svg" viewBox="0 0 100 800" preserveAspectRatio="none" id="timeline-svg-path">
+             <!-- Desktop Curvy Path (Sine Wave) -->
+             <path class="timeline-path-bg desktop-only-path" d="M 50 0 C 20 100, 20 150, 50 200 C 80 250, 80 300, 50 400 C 20 450, 20 500, 50 600 C 80 650, 80 700, 50 800" stroke="rgba(168,232,249,0.15)" stroke-width="3" fill="none"></path>
+             <path class="timeline-path-active desktop-only-path" d="M 50 0 C 20 100, 20 150, 50 200 C 80 250, 80 300, 50 400 C 20 450, 20 500, 50 600 C 80 650, 80 700, 50 800" stroke="#F5A201" stroke-width="3" fill="none"></path>
+             
+             <!-- Mobile Straight Path (Aligned to left: 20px) -->
+             <path class="timeline-path-bg mobile-only-path" d="M 20 0 L 20 800" stroke="rgba(168,232,249,0.15)" stroke-width="3" fill="none"></path>
+             <path class="timeline-path-active mobile-only-path" d="M 20 0 L 20 800" stroke="#F5A201" stroke-width="3" fill="none"></path>
+            </svg>
+            
+            <div class="timeline-events-container" id="timeline-container">
+              <!-- Dynamically populated events -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6: Gallery Experience -->
+      <section id="gallery" class="scroll-section">
+        <div class="section-container">
+          <h2 class="section-title">GLIMPSES OF TECHNIKA</h2>
+          <p class="section-description">Memories crystallized in geometry</p>
+          
+          <div class="gallery-grid" id="gallery-container">
+            <!-- Dynamically populated gallery images with SVG masks -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 7: Organisers Experience -->
+      <section id="organisers" class="scroll-section">
+        <div class="section-container">
+          <h2 class="section-title">THE ARCHITECTS</h2>
+          <p class="section-description">Meet the builders of this living world</p>
+
+          <div class="organisers-categories" id="organisers-categories-tabs">
+            <!-- Category buttons like Convenors, Faculty, Core Team, Technical -->
+          </div>
+
+          <!-- Sliding Panel / Rotating Cube Inspiration System -->
+          <div class="organisers-viewport">
+            <div class="organisers-track" id="organisers-container">
+              <!-- Dynamically populated chambers of team members -->
+            </div>
+          </div>
+          
+          <div class="organisers-navigation-controls">
+            <button class="organiser-nav-btn prev-btn" id="organiser-prev" aria-label="Previous Team">←</button>
+            <div class="organiser-nav-dots" id="organiser-dots"></div>
+            <button class="organiser-nav-btn next-btn" id="organiser-next" aria-label="Next Team">→</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 8: Contact Experience -->
+      <section id="contact" class="scroll-section">
+        <div class="section-container">
+          <h2 class="section-title">CONVERGENCE</h2>
+          
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3 class="contact-subtitle">Query Desk</h3>
+              <div class="contact-details" id="contact-details-container">
+                <!-- Dynamically populated contact info -->
+              </div>
+            </div>
+            
+            <div class="contact-query-form">
+              <h3 class="contact-subtitle">Submit Inquiry</h3>
+              <form id="query-form" class="inquiry-form">
+                <div class="form-group">
+                  <input type="text" id="query-name" placeholder="Name" required />
+                </div>
+                <div class="form-group">
+                  <input type="email" id="query-email" placeholder="Email Address" required />
+                </div>
+                <div class="form-group">
+                  <textarea id="query-message" placeholder="Message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Transmit Message</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Footer Area -->
+          <footer class="footer">
+            <div class="footer-divider" aria-hidden="true">
+              <svg viewBox="0 0 100 10" preserveAspectRatio="none" width="100%" height="20">
+                <path d="M 0 5 L 45 5 L 50 1 L 55 5 L 100 5" stroke="rgba(168,232,249,0.3)" stroke-width="1" fill="none"></path>
+              </svg>
+            </div>
+            <div class="footer-content">
+              <div class="footer-links" id="social-links-container">
+                <!-- Social links dynamically populated -->
+              </div>
+              <p class="copyright">&copy; 2026 TECHNIKA 6.0 | AVINYĀ. All Rights Reserved.</p>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating Global Registration Button -->
+    <div id="floating-cta-container">
+      <button class="btn-register floating-register-btn" id="floating-register-btn">Register</button>
+    </div>
+
+    <!-- Lightbox Modal for Gallery -->
+    <div id="gallery-lightbox" class="lightbox-modal" aria-hidden="true">
+      <button class="lightbox-close" aria-label="Close Lightbox">&times;</button>
+      <div class="lightbox-content">
+        <img id="lightbox-image" src="" alt="Enlarged gallery visual" />
+        <p id="lightbox-caption" class="lightbox-caption"></p>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

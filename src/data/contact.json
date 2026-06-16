@@ -1,0 +1,35 @@
+{
+  "queryDesk": [
+    {
+      "name": "Prof. Mamatha V. (Faculty)",
+      "phone": "+91 78588 12586"
+    },
+    {
+      "name": "Dr. Viranshu Kumar (Faculty)",
+      "phone": "+91 82102 57269"
+    },
+    {
+      "name": "Adeeb Razi (Student Admin)",
+      "phone": "+91 62067 82574"
+    }
+  ],
+  "email": "technika@arkajainuniversity.ac.in",
+  "phone": "+91 82102 57269",
+  "socialLinks": [
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/technika_aju",
+      "icon": "instagram"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/school/arka-jain-university",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Website",
+      "url": "https://arkajainuniversity.ac.in",
+      "icon": "globe"
+    }
+  ]
+}
