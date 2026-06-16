@@ -142,8 +142,19 @@ export class OrganisersController {
         if (idx === this.currentIndex) {
           tab.classList.add("active");
           if (shouldScroll) {
-            // Smooth scroll the active tab to center on mobile viewports
-            tab.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+            // Scroll the tabs container horizontally to center the active tab without vertical shifts
+            const container = this.tabsContainer;
+            if (container) {
+              const tabRect = tab.getBoundingClientRect();
+              const containerRect = container.getBoundingClientRect();
+              const tabOffsetLeft = tabRect.left - containerRect.left + container.scrollLeft;
+              const tabWidth = tabRect.width;
+              const containerWidth = containerRect.width;
+              container.scrollTo({
+                left: tabOffsetLeft - (containerWidth / 2) + (tabWidth / 2),
+                behavior: "smooth"
+              });
+            }
           }
         } else {
           tab.classList.remove("active");
